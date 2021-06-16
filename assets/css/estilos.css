@@ -1,0 +1,30 @@
+.footer{
+    color: black;
+}
+
+
+
+@font-face {
+    font-family: "Averta";
+    src: url("AvertaDemoPECuttedDemo-Regular.otf");
+}
+
+body{
+    font-family: Averta;
+}
+
+
+a {
+    color: #3f3f3f;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #2A9D8F;
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Averta", sans-serif;
+    color: #3f3f3f;
+  }
