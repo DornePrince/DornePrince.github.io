@@ -71,6 +71,7 @@ section {
   color: #1C1C1C;
 }
 
+
 @media (max-width: 768px) {
   .section-header p {
     font-size: 28px;
@@ -95,39 +96,7 @@ section {
   }
 }
 
-.breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 500;
-}
 
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol a {
-  color: #fff;
-  transition: 0.3s;
-}
-
-.breadcrumbs ol a:hover {
-  text-decoration: underline;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #8894f6;
-  content: "/";
-}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -1291,7 +1260,7 @@ padding-bottom: 2vh;
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 150px;
 }
 
 .portfolio-details .portfolio-details-slider img {
